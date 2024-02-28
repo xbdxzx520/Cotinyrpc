@@ -50,8 +50,6 @@
 - [6. 错误码](#6-错误码)
   - [6.1. 错误码判断规范](#61-错误码判断规范)
   - [6.2. 错误码释义文档](#62-错误码释义文档)
-- [7. 问题反馈](#7-问题反馈)
-- [8. 参考资料](#8-参考资料)
 
 <!-- /TOC -->
 
@@ -949,21 +947,3 @@ err_code 详细说明如下表：
 | ERROR_PARSE_SERVICE_NAME | 10000010 | 解析 service_name 失败|
 | ERROR_NOT_SET_ASYNC_PRE_CALL | 10000011 | 非阻塞协程式 RPC 调用前没保存对象 |
 
-
-
-
-
-
-
-
-
-# 8. 参考资料
-libco: https://github.com/Tencent/libco
-
-sylar: https://github.com/sylar-yin/sylar
-
-muduo: https://github.com/chenshuo/muduo
-
-tinyxml: https://github.com/leethomason/tinyxml2
-
-protobuf: https://github.com/protocolbuffers/protobuf
