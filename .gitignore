@@ -1,0 +1,14 @@
+
+
+build/*
+bin/*
+lib/*
+.vscode/
+
+*.swp
+*.swo
+*.log
+*.o
+*.a
+*.pb.h
+*.pb.cc
